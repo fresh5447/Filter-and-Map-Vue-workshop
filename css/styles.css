@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.card {
+  border: solid 12px #2c3e50;
+  border-radius: 25px;
+  background-color: #3498db;
+  margin: 5px;
+  width: calc(50% - 10px);
+}
+
+.card-img {
+  border: solid 20px #9b59b6;
+  max-width: 90%;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body {
+  color: #2c3e50;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-header {
+  font-size: 32px;
+}
+
+.card-body > p {
+  font-size: 26px;
+}
